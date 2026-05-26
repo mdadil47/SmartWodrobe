@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-neutral-25: #fafafa;
+  --color-neutral-105: #f4f4f5;
+  --color-neutral-150: #e4e4e7;
+  --color-neutral-205: #d4d4d8;
+  --color-neutral-250: #8a8a8a;
+  --color-neutral-350: #707070;
+  --color-neutral-450: #52525b;
+  --color-neutral-750: #27272a;
+  --color-neutral-805: #1c1c1f;
+  --color-neutral-850: #121214;
+  --color-neutral-905: #0a0a0c;
+  --color-neutral-955: #040405;
+
+  --color-indigo-505: #5a57ff;
+}
+
+@variant dark (&:where(.dark, .dark *));

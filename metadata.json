@@ -1,0 +1,6 @@
+{
+  "name": "SmartWardrobe",
+  "description": "An AI-powered wardrobe organizer and digital outfit generator that automatically tags clothes and designs cohesive outfits matching weather, occasions, and color theory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
